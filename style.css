@@ -1,0 +1,37 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.masthead {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url("assets/audience-band-celebration-2240771.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.base-genrer {
+  height: 100vh;
+  min-height: 500px;
+  background-color: rgb(182, 255, 239);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.base-time {
+  height: 100vh;
+  min-height: 500px;
+  background-color: greenyellow;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.base-result_podcasts {
+  height: 100vh;
+  min-height: 500px;
+  background-color: lightcyan;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
