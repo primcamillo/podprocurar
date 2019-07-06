@@ -36,6 +36,9 @@ html {
   background-repeat: no-repeat;
 }
 .botoes-generos{
-    text-align:center;
-    }
+
+  display: block;
+  height: 50px;
+  background: white;
 }
+  
