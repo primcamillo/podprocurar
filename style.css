@@ -5,7 +5,7 @@ html {
 .masthead {
   height: 100vh;
   min-height: 500px;
-  background-image: url("assets/audience-band-celebration-2240771.jpg");
+  background-image: url("https://images.pexels.com/photos/990824/pexels-photo-990824.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940 ");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -14,7 +14,7 @@ html {
 .base-genrer {
   height: 100vh;
   min-height: 500px;
-  background-color: rgb(182, 255, 239);
+  background-color: rgb(245, 207, 151);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -22,7 +22,7 @@ html {
 .base-time {
   height: 100vh;
   min-height: 500px;
-  background-color: greenyellow;
+  background-color: rgb(248, 213, 164);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -30,15 +30,20 @@ html {
 .base-result_podcasts {
   height: 100vh;
   min-height: 500px;
-  background-color: lightcyan;
+  background-color: rgb(224, 186, 127);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
-.botoes-generos{
-
-  display: block;
+.btn-generos{
   height: 50px;
-  background: white;
+  min-height: 500px;
+  display: block;
+   
 }
-  
+.rodape__cc {
+  margin: 0 1rem;
+  text-align: center;
+}
+
+
