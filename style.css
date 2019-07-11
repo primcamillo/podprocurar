@@ -9,6 +9,7 @@ html {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .base-genrer {
@@ -38,12 +39,35 @@ html {
 .btn-generos{
   height: 50px;
   min-height: 500px;
-  display: block;
-   
+  display: block;  
+}
+.btn{
+  width: 200px;
+  height: 50px;
 }
 .rodape__cc {
   margin: 0 1rem;
   text-align: center;
 }
 
+.py-5{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
+}
+
+h1{
+  margin: 100px;
+  font-weight: bold;
+}
+
+.col-sm{
+  margin: 0 0 0 5rem;
+}
+.lead{
+  font-size: 20pt;
+}
+.font-helvetica-bold{
+  font-size: 40pt;
+}
