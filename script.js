@@ -24,7 +24,7 @@ button.addEventListener('click',(evento) =>{
     evento.preventDefault();
    // stickers.innerHTML = " "
 
-    fetch(`https://listen-api.listennotes.com/api/v2/search?q=${genero}s&sort_by_date=0&type=episode&offset=0&len_min=${}&len_max=${}`)
+    fetch(`https://www.listennotes.com/pt/api/docs/#get-api-v2-genres`)
     .then((response) =>{
         return response.json();
     })
@@ -46,3 +46,47 @@ button.addEventListener('click',(evento) =>{
         console.log(erro);
     })
 } )
+
+
+
+//---EXEMPLO DE EXERCICIO COM API FEITO EM AULA---//
+
+//pegar um valor do meu imput e dar um console 
+//diparar um evento para q pegue o valor do imput, estimular o cod chamar o api, 
+
+
+/* const cep = document.getElementById("cep"); //pegando o elemento cep HTML
+console.log(cep.value)//escrevendo no consoole valor do cep
+cep.addEventListener("focusout", () => {
+  console.log("FOCUS OUT")
+  console.log('https://viacep.com.br/ws/' + cep.value + '/json') //console.log(`https://viacep.com.br/ws/ ${cep.value} /json`)
+
+  fetch('https://viacep.com.br/ws/' + cep.value + '/json')//espera a url parametro obrigatorio
+    .then(function (response) {//outra forma de fazer .then((response)=>{codigo aqui}
+      return response.json();// 1o then nos tras uma resposta
+    })
+    .then(function (data) {//outra forma de fazer .then((data)=>{codigo aqui}
+
+      //      pode usar os dados do API
+      //     //console.log("SUCESSO!!")
+      //     console.log(data) //para acessar o obj data.localizacao
+
+      let estado = document.getElementById('estado');
+      estado.value = data.uf;
+
+      let cidade = document.getElementById('cidade');
+      cidade.value = data.localidade;
+
+      let bairro = document.getElementById('bairro');
+      bairro.value = data.bairro;
+
+      let endereco = document.getElementById('endereco');
+      endereco.value = data.logradouro;
+
+
+    })
+    .catch(function (erro) {
+      console.log(erro)
+    })
+})
+*/
